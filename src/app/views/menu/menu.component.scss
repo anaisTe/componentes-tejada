@@ -1,0 +1,42 @@
+ul {
+    // background-color: aquamarine;
+    margin: 20px;
+    padding: 12px 0;
+    color: #fff;
+    list-style: none;
+
+    li {
+        padding: 12px;
+        border-radius: 4px;
+        font-size: 16px;
+        margin: 0 0 5px;
+
+        &:hover {
+            cursor: pointer;
+            background: #dbdcf7;
+            color: #212121;
+        }
+    }
+
+    .active {
+        cursor: pointer;
+        background: #dbdcf7;
+        color: #212121;
+    }
+
+    P {
+        padding: 0px;
+        margin: 1rem 0 5px;
+        font-size: 12px;
+        font-weight: 500;
+        color: #3e3a6d;
+        display: flex;
+        align-items: center;
+
+        mat-icon {
+            width: 16px;
+            height: 16px;
+            font-size: 16px;
+        }
+    }
+}

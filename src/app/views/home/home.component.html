@@ -1,0 +1,14 @@
+<div class="card-container">
+  <p class="card-container-title">✈️ Vive experiencias únicas ✈️</p>
+  <div class="d-flex flex-wrap mt-5">
+    <div
+      class="col-12 col-md-6 col-lg-4 card-datos"
+      *ngFor="let item of PLACES">
+      <p class="card-datos-title">{{ item.title }}</p>
+      <div class="card-datos-info">
+        <img src="../../../assets/img/{{ item.img }}" alt="img" />
+        <p>{{ item.info }}</p>
+      </div>
+    </div>
+  </div>
+</div>
